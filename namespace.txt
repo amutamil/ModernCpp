@@ -1,0 +1,15 @@
+*	namespaces can be nested
+*	namespace can be declared without name also, whose members can be called only 
+	within that source file
+*	prefer full  qualified names that "using" directing.
+
+* auto can't be used in static member initialisation
+
+* const member function
+	- only const objects can be passed to const member function
+	- it can call only const member function
+	- it can't change any member variable values.
+
+*  thought constant pass by value can call (const <data-type>&) it will call r-value(<datatype>&&) because it's temporary.
+
+* post increment requires creation of temporary object, so pre increment is efficient.

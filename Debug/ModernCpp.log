@@ -1,0 +1,8 @@
+﻿  deleter.cpp
+  DynamicArrays.cpp
+  MakeFunctions.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\memory(3381,1): error C2248: 'Point::Point': cannot access private member declared in class 'Point'
+C:\Users\320112313\source\repos\ModernCpp\MakeFunctions.cpp(6): message : see declaration of 'Point::Point'
+C:\Users\320112313\source\repos\ModernCpp\MakeFunctions.cpp(4): message : see declaration of 'Point'
+C:\Users\320112313\source\repos\ModernCpp\MakeFunctions.cpp(15): message : see reference to function template instantiation 'std::unique_ptr<Point,std::default_delete<Point>> std::make_unique<Point,int,int,0>(int &&,int &&)' being compiled
+  Generating Code...
