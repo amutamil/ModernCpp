@@ -1,0 +1,47 @@
+﻿  CircularRef.cpp
+  ConstAndCompoundTypes.cpp
+  ConstExpr.cpp
+C:\Users\320112313\source\repos\ModernCpp\ConstExpr.cpp(26,8): error C2086: 'int arr[42]': redefinition
+C:\Users\320112313\source\repos\ModernCpp\ConstExpr.cpp(22): message : see declaration of 'arr'
+  DeleteDefault.cpp
+  deleter.cpp
+  DMA-P4.cpp
+  DynamicArrays.cpp
+  func.cpp
+  FunctionOverloading.cpp
+  functionPointers.cpp
+  getlineexample.cpp
+  InitializerList.cpp
+  Init_vs_assignment.cpp
+  InlineFunction.cpp
+  Integer.cpp
+  IntegerMain.cpp
+  MakeFunctions.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\include\memory(3381,1): error C2248: 'Point::Point': cannot access private member declared in class 'Point'
+C:\Users\320112313\source\repos\ModernCpp\MakeFunctions.cpp(6): message : see declaration of 'Point::Point'
+C:\Users\320112313\source\repos\ModernCpp\MakeFunctions.cpp(4): message : see declaration of 'Point'
+C:\Users\320112313\source\repos\ModernCpp\MakeFunctions.cpp(15): message : see reference to function template instantiation 'std::unique_ptr<Point,std::default_delete<Point>> std::make_unique<Point,int,int,0>(int &&,int &&)' being compiled
+  ModernCpp.cpp
+  MoveSemantic.cpp
+  OprtrOverlding-P1_P2.cpp
+  Compiling...
+  OprtrOverlding-P3.cpp
+  RangeBasedForLoop.cpp
+  ScopedEnums.cpp
+  SharedPtr.cpp
+  SmartPointers-P1.cpp
+  strings1.cpp
+C:\Users\320112313\source\repos\ModernCpp\strings1.cpp(8,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\320112313\source\repos\ModernCpp\strings1.cpp(9,4): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  strings2.cpp
+C:\Users\320112313\source\repos\ModernCpp\strings2.cpp(9,12): warning C4834: discarding return value of function with 'nodiscard' attribute
+  strings3.cpp
+  thisPointer.cpp
+  TypeCasting-P1.cpp
+  TypeCasting-P2.cpp
+  TypeCasting-P4.cpp
+  UniformInitialization.cpp
+  Unions.cpp
+  uniquePtr.cpp
+C:\Users\320112313\source\repos\ModernCpp\uniquePtr.cpp(44,3): warning C4834: discarding return value of function with 'nodiscard' attribute
+  UserDefinedLiterals.cpp
