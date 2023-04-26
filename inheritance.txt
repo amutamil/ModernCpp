@@ -1,0 +1,5 @@
+* ctor execute from base to child class
+* dtor execute from childe to base
+* though private members are inherited to child class they aren't accessible in child class
+* Default modifier - private, if child is a class,  public, if child is a struct.
+*

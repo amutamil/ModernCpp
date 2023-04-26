@@ -138,6 +138,9 @@
     <ClCompile Include="Unions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RawStringLiterals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">
@@ -152,6 +155,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="namespace.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="inheritance.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
