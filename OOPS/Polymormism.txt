@@ -1,0 +1,12 @@
+POLYMORPHISM:
+==============
+* operator and function overloding, templates follow the compile time polymorphism
+* for run time polymorphism follwing implementation is done
+	1. for run time polymorphism the cancrete class obj can't be used, so ptr to obj sud be used
+	2.compiler implements a virtual table for a class which contains virtual key word
+	3. a virtual pointer will pooint to that base class table
+	4. when inherted class obj created then the virtual pointer is inhereited to point the child obj table
+	5. each function in virtual table is allocated with 4bytes in 32bit computer
+	6. this increase the size of class containing virtal function by 4bytes
+	7. all base class function should have added the virtual destructor on them
+	8. A base class object can point to any of  its child class object, but 7th rule should be followed to dlete a child class object by base class pointer

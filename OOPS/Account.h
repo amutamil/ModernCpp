@@ -12,15 +12,15 @@ protected:
    float m_Balance;
 public:
    Account(string name,float amount);
-   ~Account();
+   virtual ~Account();
 
    const string GetName() const;
    float GetBalance() const;
    int GetAccNo() const;
 
-   void AccumulateInterest();
+   virtual void AccumulateInterest();
    void Deposit(float amount);
-   void Withdraw(float amount);
-   float GetInterestRate();
+   virtual void Withdraw(float amount);
+   virtual float GetInterestRate();
 };
 

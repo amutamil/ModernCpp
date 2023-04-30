@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4ac9e6a6-74d5-4186-b7da-9279c9e36665}</ProjectGuid>
+    <ProjectGuid>{78085214-d2c6-4104-aecf-342dc683f1a4}</ProjectGuid>
     <RootNamespace>OOPS</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -140,15 +140,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Account.h" />
+    <ClInclude Include="Checking.h" />
     <ClInclude Include="Savings.h" />
+    <ClInclude Include="Transact.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Account.cpp" />
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Checking.cpp" />
+    <ClCompile Include="DiamonDInheritance.cpp">
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="OverrideAndFinal.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Savings.cpp" />
+    <ClCompile Include="Transact.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Polymormism.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

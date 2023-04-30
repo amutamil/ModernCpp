@@ -13,3 +13,5 @@
 *  thought constant pass by value can call (const <data-type>&) it will call r-value(<datatype>&&) because it's temporary.
 
 * post increment requires creation of temporary object, so pre increment is efficient.
+
+* copy ellision

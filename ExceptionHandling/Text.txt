@@ -1,0 +1,7 @@
+***NOEXCEPT***
+1. noexcept should be used if we know the function can't thorow exception
+2. a function calling lib functions can't use noexcept
+3. in default all destructors are noexcept(true)
+4. noexcept accepts expressions as arguments and return their noexpect bool type (noexcept(function))
+5. the class which using move operation should use noexcept(true), to optimize the code with containers  to prevent copy 
+   operation of objects of those class into containers, rather they will be moved onto containers
